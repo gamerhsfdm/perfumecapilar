@@ -52,8 +52,6 @@ document.addEventListener("DOMContentLoaded", function() {
             alert('Parabéns! Você está a um passo de ter cabelos incríveis. Redirecionando para o checkout...');
         });
     });
-
-    // 6. Ativar o carrossel de depoimentos
     const testimonialCarousel = new bootstrap.Carousel(document.getElementById('testimonialCarousel'), {
         interval: 5000, 
         wrap: true 

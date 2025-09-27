@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Essência Capilar - A Fragrância que Define Você</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" href="./assets/img/favicon.jpeg" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-</head>
-<body>
 
-    <a href="#comprar-agora-section" class="floating-cta d-none d-lg-flex align-items-center justify-content-center">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flor D'Ar Hair Perfume - Essência de Flores para o Seu Cabelo</title>
+
+    <meta name="description"
+        content="Flor D'Ar: O perfume capilar premium com essência de blossoms que nutre, dá brilho e neutraliza odores. Fórmula sem álcool e de longa duração." />
+    <meta name="keywords"
+        content="perfume capilar, hair perfume, Flor D'Ar, fragrância cabelo, cabelo perfumado, brilho cabelo" />
+    <meta property="og:title" content="Flor D'Ar Hair Perfume - Essência de Flores" />
+    <meta property="og:description"
+        content="A fragrância de longa duração que nutre, dá brilho e define sua presença com uma elegância floral inconfundível." />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <link rel="shortcut icon" href="./assets/img/logo.jpeg" type="image/jpeg" />
+</head>
+
+<body>
+    <a href="#comprar-agora-section"
+        class="floating-cta d-none d-lg-flex align-items-center justify-content-center text-decoration-none"
+        aria-label="Comprar Flor D'Ar agora">
         <i class="bi bi-cart-fill me-2"></i> COMPRAR AGORA
     </a>
 
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" data-aos="fade-down">
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar shadow-sm fixed-top" data-aos="fade-down">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Essência Capilar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                <img src="./assets/img/logo.jpeg" alt="Flor D'Ar Logo" height="30"
+                    class="me-2 rounded-circle custom-logo-shadow" />
+                Flor D'Ar
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,228 +53,473 @@
                         <a class="nav-link" href="#produto">O Produto</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#notas-olfativas">Fragrância</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#depoimentos">Depoimentos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#faq">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-sm btn-primary ms-lg-3" href="#comprar-agora-section">Comprar</a>
+                        <a class="btn btn-sm custom-btn ms-lg-3 custom-btn-pulse"
+                            href="#comprar-agora-section">Comprar</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="hero-section text-white d-flex align-items-center justify-content-center text-center position-relative">
+    <section class="hero-section text-white d-flex align-items-center text-center position-relative overflow-hidden">
         <div class="hero-background">
-            <video autoplay muted loop playsinline class="background-video">
-                <source src="./assets/img/perfumevideo2.mp4" type="video/mp4">
-                <img src="./assets/img/perfume-banner.png" alt="Cabelo sedoso e brilhante"> 
+            <video autoplay muted loop playsinline class="background-video-hero">
+                <source src="./assets/img/banner.mp4" type="video/mp4" />
+                Seu navegador não suporta a tag de vídeo.
             </video>
         </div>
         <div class="container hero-content" data-aos="fade-up" data-aos-duration="1200">
-            <h1 class="display-2 fw-bold mb-4">Sua Essência, Seu Brilho.</h1>
-            <p class="lead mb-5 fs-4">Descubra o perfume capilar que eleva sua presença com elegância e frescor que dura o dia todo.</p>
-            <a href="#comprar-agora-section" class="btn btn-primary btn-lg custom-btn-pulse" data-aos="zoom-in" data-aos-delay="600">
-                <i class="bi bi-star-fill me-2"></i> Adquira Sua Fragrância Exclusiva
-            </a>
-            <div class="mt-4" data-aos="fade-up" data-aos-delay="800">
-                <span class="badge bg-secondary text-white-50 p-2 me-2">Livre de Álcool</span>
-                <span class="badge bg-secondary text-white-50 p-2 me-2">Cruelty-Free</span>
-                <span class="badge bg-secondary text-white-50 p-2">Brilho Intenso</span>
-            </div>
+            <h1 class="display-1 fw-bold mb-4 font-playfair custom-title-shadow">
+                FLOR D'AR.
+            </h1>
+            <h2 class="display-6 fw-light mb-4 text-pink-light font-poppins">
+                Essência de Blossoms para o seu Cabelo
+            </h2>
+            <p class="lead mb-5 fs-4 fw-light text-shadow-sm">
+                A fragrância de longa duração que nutre.
+            </p>
         </div>
     </section>
 
-    <section id="beneficios" class="py-5 text-center">
+    <hr class="custom-hr" />
+
+    <section id="beneficios" class="py-5 text-center bg-light-pink">
         <div class="container">
-            <h2 class="display-4 fw-bold mb-5" data-aos="fade-up">Descubra o Poder de Essência Capilar</h2>
+            <h2 class="display-5 fw-bold mb-5 font-playfair text-dark-gold" data-aos="fade-up">
+                Seu Cabelo Transforma. ✨
+            </h2>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="benefit-card h-100 p-4 rounded shadow-sm d-flex flex-column align-items-center">
-                        <i class="bi bi-gem fs-1 mb-3 text-primary"></i> <h3 class="fw-bold fs-4">Aroma Cativante</h3>
-                        <p>Um buquê de notas que envolve seus fios em uma fragrância inesquecível e luxuosa.</p>
+                    <div
+                        class="benefit-card h-100 p-4 rounded shadow-lg d-flex flex-column align-items-center bg-white border-pink-subtle">
+                        <i class="bi bi-flower1 fs-1 mb-3 text-pink-dark"></i>
+                        <h3 class="fw-bold fs-4 font-poppins">Fragrância Exuberante</h3>
+                        <p class="text-muted">
+                            Um buquê floral sofisticado, criado para envolver seus fios com
+                            uma aura luxuosa e inesquecível. Dura o dia todo.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="benefit-card h-100 p-4 rounded shadow-sm d-flex flex-column align-items-center">
-                        <i class="bi bi-sparkle fs-1 mb-3 text-primary"></i> <h3 class="fw-bold fs-4">Brilho Radiante</h3>
-                        <p>Fórmula leve que realça o brilho natural e deixa o cabelo com um toque sedoso, sem pesar.</p>
+                    <div
+                        class="benefit-card h-100 p-4 rounded shadow-lg d-flex flex-column align-items-center bg-white border-pink-subtle">
+                        <i class="bi bi-lightbulb-fill fs-1 mb-3 text-pink-dark"></i>
+                        <h3 class="fw-bold fs-4 font-poppins">Nutre & Ilumina</h3>
+                        <p class="text-muted">
+                            Fórmula leve que nutre sem pesar, adicionando um brilho
+                            **radiante** e um toque sedoso instantâneo aos seus cabelos.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="benefit-card h-100 p-4 rounded shadow-sm d-flex flex-column align-items-center">
-                        <i class="bi bi-shield-check fs-1 mb-3 text-primary"></i> <h3 class="fw-bold fs-4">Proteção e Frescor</h3>
-                        <p>Cria uma barreira sutil contra odores, mantendo o frescor e a fragrância dos seus fios por mais tempo.</p>
+                    <div
+                        class="benefit-card h-100 p-4 rounded shadow-lg d-flex flex-column align-items-center bg-white border-pink-subtle">
+                        <i class="bi bi-wind fs-1 mb-3 text-pink-dark"></i>
+                        <h3 class="fw-bold fs-4 font-poppins">Neutraliza Odores</h3>
+                        <p class="text-muted">
+                            Proteção eficaz que sela a fragrância e cria uma barreira contra
+                            cheiros externos (fumaça, poluição), mantendo o frescor.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="produto" class="py-5">
+    <hr class="custom-hr" />
+
+    <section id="produto" class="py-5 bg-white">
         <div class="container">
             <div class="row align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-                    <img src="./assets/img/perfume-hero.png" class="img-fluid rounded shadow-lg product-image-effect" alt="Frasco do Perfume Capilar">
+                    <img src="./assets/img/produto.jpeg" class="img-fluid rounded shadow-xl product-image-effect"
+                        alt="Frasco elegante do Flor D'Ar Hair Perfume em exibição" />
                 </div>
                 <div class="col-md-6 text-center text-md-start" data-aos="fade-left">
-                    <h2 class="display-4 fw-bold mb-4">A Magia em Cada Gota: <br><span class="text-primary">Fórmula Premium</span></h2>
-                    <p class="lead mb-4">Desenvolvido com uma fusão exclusiva de extratos botânicos e óleos essenciais nobres, Essência Capilar não é apenas um perfume, é um tratamento de beleza.</p>
-                    <div class="row product-features-grid">
-                        <div class="col-12 mb-3" data-aos="fade-left" data-aos-delay="100">
-                            <i class="bi bi-flask-fill me-2 text-primary"></i> <span class="fw-bold">Sem Álcool</span>
+                    <h2 class="display-4 fw-bold mb-4 font-playfair">
+                        Conheça o Segredo: <br /><span class="text-pink-dark">Fórmula Premium</span>
+                    </h2>
+                    <p class="lead mb-4 fw-light">
+                        O nosso perfume capilar premium é um acessório de beleza
+                        indispensável, formulado com ingredientes de alta qualidade para
+                        um cuidado que você pode sentir e cheirar.
+                    </p>
+                    <div class="product-features-grid mb-4">
+                        <div class="feature-item p-2 mb-2 d-flex align-items-center bg-light-pink rounded"
+                            data-aos="fade-left" data-aos-delay="100">
+                            <i class="bi bi-check-circle-fill me-2 text-pink-dark fs-5"></i>
+                            <span class="fw-bold text-dark-gold">300ml: Mais Volume, Mais Duraçao</span>
                         </div>
-                        <div class="col-12 mb-3" data-aos="fade-left" data-aos-delay="200">
-                            <i class="bi bi-box-fill me-2 text-primary"></i> <span class="fw-bold">Frasco Elegante 50ml</span>
+                        <div class="feature-item p-2 mb-2 d-flex align-items-center bg-light-pink rounded"
+                            data-aos="fade-left" data-aos-delay="200">
+                            <i class="bi bi-check-circle-fill me-2 text-pink-dark fs-5"></i>
+                            <span class="fw-bold text-dark-gold">Fórmula Sem Álcool (Não Resseca)</span>
                         </div>
-                        <div class="col-12 mb-3" data-aos="fade-left" data-aos-delay="300">
-                            <i class="bi bi-person-check-fill me-2 text-primary"></i> <span class="fw-bold">Para Todos os Cabelos</span>
+                        <div class="feature-item p-2 mb-2 d-flex align-items-center bg-light-pink rounded"
+                            data-aos="fade-left" data-aos-delay="300">
+                            <i class="bi bi-check-circle-fill me-2 text-pink-dark fs-5"></i>
+                            <span class="fw-bold text-dark-gold">Toque Final de Brilho e Maciez</span>
                         </div>
-                        <div class="col-12 mb-3" data-aos="fade-left" data-aos-delay="400">
-                            <i class="bi bi-leaf-fill me-2 text-primary"></i> <span class="fw-bold">Vegano & Cruelty-Free</span>
+                        <div class="feature-item p-2 mb-2 d-flex align-items-center bg-light-pink rounded"
+                            data-aos="fade-left" data-aos-delay="400">
+                            <i class="bi bi-check-circle-fill me-2 text-pink-dark fs-5"></i>
+                            <span class="fw-bold text-dark-gold">Vegano & Cruelty-Free</span>
                         </div>
                     </div>
-                    <a href="#comprar-agora-section" class="btn btn-primary btn-lg mt-4 custom-btn-pulse" data-aos="zoom-in" data-aos-delay="500">
-                        <i class="bi bi-arrow-right-circle-fill me-2"></i> Veja a Oferta Imperdível
+                    <a href="#comprar-agora-section" class="btn custom-btn btn-lg mt-3 custom-btn-pulse"
+                        data-aos="zoom-in" data-aos-delay="500">
+                        <i class="bi bi-bag-fill me-2"></i> Quero o Meu!
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    
-    <section id="comprar-agora-section" class="offer-timer-section py-5 text-center">
-        <div class="container" data-aos="zoom-in">
-            <h2 class="display-4 fw-bold mb-3">Sua Chance de Exclusividade!</h2>
-            <p class="lead mb-4">Aproveite nosso preço especial de lançamento por tempo limitado:</p>
-            
-            <div class="price-deal-box p-4 mx-auto rounded shadow-lg mb-4" data-aos="zoom-in" data-aos-delay="200">
-                <p class="old-price">De <span class="text-decoration-line-through fs-4">R$ 159,90</span></p>
-                <p class="new-price display-1 fw-bold mb-2">R$ 99,90</p>
-                <p class="small">Ou 3x de R$ 33,30 sem juros</p>
-                <p class="mb-4 fw-bold"><i class="bi bi-truck me-2"></i> Frete GRÁTIS para todo o Brasil!</p>
-            </div>
-            
-            <div class="timer-box p-3 mx-auto rounded mb-4" data-aos="fade-up" data-aos-delay="300">
-                <p class="mb-2 fs-5 fw-bold">A oferta expira em:</p>
-                <div id="countdown" class="d-flex justify-content-center gap-3 fs-3 fw-bold">
-                    <span id="days">00</span>:<span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+
+    <hr class="custom-hr" />
+
+    <section id="modo-uso" class="py-5 text-center bg-white">
+        <div class="container">
+            <h2 class="display-5 fw-bold mb-5 font-playfair text-pink-dark" data-aos="fade-up">
+                Seu Ritual de Aplicação Flor D'Ar
+            </h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="p-4 rounded shadow-sm h-100 border border-secondary">
+                        <div class="custom-step-circle mx-auto mb-3 bg-pink-dark text-white">
+                            1
+                        </div>
+                        <h3 class="fs-4 fw-bold">Prepare os Fios</h3>
+                        <p class="fw-light">
+                            Pode ser usado no cabelo **seco ou úmido** (após a escova é
+                            ideal). Agite levemente o frasco antes de usar.
+                        </p>
+                    </div>
                 </div>
-            </div>
-
-            <a href="#" class="btn btn-warning btn-lg custom-btn-pulse mb-4" data-aos="zoom-in" data-aos-delay="400">
-                <i class="bi bi-bag-check-fill me-2"></i> GARANTIR MINHA ESSÊNCIA AGORA!
-            </a>
-
-            <div class="guarantee-box p-3 mx-auto rounded-pill d-inline-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
-                <i class="bi bi-patch-check-fill me-2 fs-4"></i>
-                <span class="small fw-bold">Satisfação Garantida ou Seu Dinheiro de Volta!</span>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="p-4 rounded shadow-sm h-100 border border-secondary">
+                        <div class="custom-step-circle mx-auto mb-3 bg-pink-dark text-white">
+                            2
+                        </div>
+                        <h3 class="fs-4 fw-bold">Borrifar à Distância</h3>
+                        <p class="fw-light">
+                            Mantenha o frasco a **20-30 cm** do cabelo e borrife suavemente,
+                            cobrindo o comprimento e as pontas.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="p-4 rounded shadow-sm h-100 border border-secondary">
+                        <div class="custom-step-circle mx-auto mb-3 bg-pink-dark text-white">
+                            3
+                        </div>
+                        <h3 class="fs-4 fw-bold">Finalize com Brilho</h3>
+                        <p class="fw-light">
+                            Evite a raiz. Deixe o produto assentar e desfrute do **aroma e
+                            brilho** instantâneos que duram o dia todo.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="depoimentos" class="py-5 text-center">
+    <hr class="custom-hr" />
+
+    <section id="galeria" class="py-5 bg-light-pink text-center">
         <div class="container">
-            <h2 class="display-4 fw-bold mb-5" data-aos="fade-up">A Voz de Quem Já Ama</h2>
-            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="display-5 fw-bold mb-5 font-playfair text-dark-gold" data-aos="fade-up">
+                Seu Ritual de Beleza Flor D'Ar
+            </h2>
+            <p class="lead mb-4 fw-light" data-aos="fade-up" data-aos-delay="100">
+                Veja como o Flor D'Ar se encaixa perfeitamente no seu dia a dia.
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-12" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./assets/img/fotos.jpeg" class="img-fluid rounded shadow-lg border-3 border-pink-dark"
+                        alt="Imagens de estilo de vida mostrando o Flor D'Ar Hair Perfume sendo usado" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="custom-hr" />
+
+    <section id="notas-olfativas" class="py-5 bg-light-pink text-center">
+        <div class="container" data-aos="fade-up">
+            <h2 class="display-5 fw-bold mb-5 font-playfair text-pink-dark">
+                A Pirâmide Olfativa de Flor D'Ar
+            </h2>
+            <p class="lead mb-5 fw-light text-dark-gold">
+                Uma composição sofisticada de notas que evoluem com o tempo, revelando
+                a sua essência floral mais pura.
+            </p>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 rounded custom-note-box h-100 bg-white">
+                        <i class="bi bi-droplet-half fs-2 mb-3 text-pink-dark"></i>
+                        <h4 class="fw-bold text-dark-gold">Notas de Topo (Frescor)</h4>
+                        <p class="fw-light text-muted">
+                            Bergamota Cítrica, Pêra Doce, Folhas Verdes
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-4 rounded custom-note-box h-100 bg-white">
+                        <i class="bi bi-flower3 fs-2 mb-3 text-pink-dark"></i>
+                        <h4 class="fw-bold text-dark-gold">Notas de Coração (Corpo)</h4>
+                        <p class="fw-light text-muted">
+                            Jasmim Exótico, Rosa Branca, Lírio do Vale
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="p-4 rounded custom-note-box h-100 bg-white">
+                        <i class="bi bi-tree-fill fs-2 mb-3 text-pink-dark"></i>
+                        <h4 class="fw-bold text-dark-gold">Notas de Fundo (Fixação)</h4>
+                        <p class="fw-light text-muted">
+                            Sândalo Aveludado, Âmbar Quente, Almíscar
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="custom-hr" />
+
+    <section id="comprar-agora-section" class="offer-timer-section py-5 text-center bg-white">
+        <div class="container" data-aos="zoom-in">
+            <h2 class="display-4 fw-bold mb-3 font-playfair text-pink-dark">
+                Oferta de Lançamento Exclusiva!
+            </h2>
+            <p class="lead mb-4 fw-light text-dark-gold">
+                Essa chance de ter o Flor D'Ar com um preço especial é
+                <strong class="text-pink-dark">por tempo super limitado</strong>:
+            </p>
+
+            <div class="price-deal-box p-4 mx-auto rounded shadow-lg mb-4 bg-light-pink" data-aos="zoom-in"
+                data-aos-delay="200">
+                <p class="old-price mb-1 text-dark-gold">
+                    De
+                    <span class="text-decoration-line-through fs-4 fw-light">R$ 159,90</span>
+                </p>
+                <p class="new-price display-1 fw-bold mb-2 font-playfair text-pink-dark">
+                    R$ 99,90
+                </p>
+                <p class="small text-pink-dark">Ou 3x de R$ 33,30 sem juros</p>
+                <p class="mb-0 fw-bold mt-3 text-pink-dark">
+                    <i class="bi bi-truck me-2 text-pink-dark"></i> Frete GRÁTIS para
+                    todo o Brasil!
+                </p>
+            </div>
+
+            <div class="timer-box p-3 mx-auto rounded mb-4 custom-timer-box-dark" data-aos="fade-up"
+                data-aos-delay="300">
+                <p class="mb-2 fs-5 fw-bold text-gold-faint">A oferta termina em:</p>
+                <div id="countdown" class="d-flex justify-content-center gap-3 fs-3 fw-bold font-playfair text-white">
+                    <span id="hours">00</span>h <span class="colon">:</span>
+                    <span id="minutes">00</span>m <span class="colon">:</span>
+                    <span id="seconds">00</span>s
+                </div>
+            </div>
+
+            <div class="guarantee-box p-3 mx-auto rounded-pill d-inline-flex align-items-center bg-dark mb-4"
+                data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-patch-check-fill me-2 fs-4 text-gold"></i>
+                <span class="small fw-bold text-white">Sua Satisfação é Garantida ou Devolvemos Seu Dinheiro!</span>
+            </div>
+
+            <div class="row justify-content-center text-center mt-3" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-6 col-md-3 text-center mb-3">
+                    <i class="bi bi-shield-check fs-3 text-pink-dark"></i>
+                    <p class="small fw-bold mt-1 mb-0 text-dark-gold">
+                        PRODUTO ORIGINAL
+                    </p>
+                </div>
+                <div class="col-6 col-md-3 text-center mb-3">
+                    <i class="bi bi-heart-fill fs-3 text-pink-dark"></i>
+                    <p class="small fw-bold mt-1 mb-0 text-dark-gold">CRUELTY-FREE</p>
+                </div>
+                <div class="col-6 col-md-3 text-center mb-3">
+                    <i class="bi bi-credit-card-2-back-fill fs-3 text-pink-dark"></i>
+                    <p class="small fw-bold mt-1 mb-0 text-dark-gold">
+                        PAGAMENTO SEGURO
+                    </p>
+                </div>
+                <div class="col-6 col-md-3 text-center mb-3">
+                    <i class="bi bi-star-fill fs-3 text-pink-dark"></i>
+                    <p class="small fw-bold mt-1 mb-0 text-dark-gold">
+                        MAIS DE 1.000 VENDAS
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="custom-hr" />
+
+    <section id="depoimentos" class="py-5 text-center bg-white">
+        <div class="container">
+            <h2 class="display-4 fw-bold mb-5 font-playfair text-pink-dark" data-aos="fade-up">
+                A Voz de Quem Já Brilha com Flor D'Ar
+            </h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up"
+                data-aos-delay="200">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="testimonial-card p-5 mx-auto rounded shadow-sm">
-                            <img src="./assets/img/user1.jpg" class="rounded-circle mb-3 border border-primary border-3" alt="Foto da Cliente Ana Souza" width="90" height="90">
-                            <p class="lead">"Simplesmente apaixonada! Meu cabelo nunca esteve tão cheiroso e com um brilho incrível. Uso todos os dias!"</p>
-                            <p class="fw-bold mt-3">- Ana Souza, ⭐️⭐️⭐️⭐️⭐️</p>
+                        <div class="testimonial-card p-5 mx-auto rounded shadow-lg border-top border-5 border-pink-dark"
+                            style="max-width: 700px">
+                            <img src="./assets/img/user1.jpg"
+                                class="rounded-circle mb-3 border border-pink-dark border-3"
+                                alt="Foto da Cliente Ana Souza" width="85" height="90" />
+                            <p class="lead font-playfair fst-italic">
+                                "O perfume é o toque de luxo que faltava na minha rotina. O
+                                cheiro é divino e o brilho que ele dá no cabelo é
+                                inacreditável!"
+                            </p>
+                            <p class="fw-bold mt-3 font-poppins">
+                                - Ana Souza, ⭐️⭐️⭐️⭐️⭐️
+                            </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="testimonial-card p-5 mx-auto rounded shadow-sm">
-                             <img src="./assets/img/user2.jpg" class="rounded-circle mb-3 border border-primary border-3" alt="Foto da Cliente Juliana Lima" width="90" height="90">
-                            <p class="lead">"Finalmente um perfume capilar que não resseca! A fragrância é sofisticada e dura muito. Vale cada centavo!"</p>
-                            <p class="fw-bold mt-3">- Juliana Lima, ⭐️⭐️⭐️⭐️⭐️</p>
+                        <div class="testimonial-card p-5 mx-auto rounded shadow-lg border-top border-5 border-pink-dark"
+                            style="max-width: 700px">
+                            <img src="./assets/img/user2.jpg"
+                                class="rounded-circle mb-3 border border-pink-dark border-3"
+                                alt="Foto da Cliente Juliana Lima" width="85" height="90" />
+                            <p class="lead font-playfair fst-italic">
+                                "Meus cabelos são quimicamente tratados e a fórmula sem álcool
+                                foi a salvação! Não resseca, só perfuma e ilumina. Amei!"
+                            </p>
+                            <p class="fw-bold mt-3 font-poppins">
+                                - Juliana Lima, ⭐️⭐️⭐️⭐️⭐️
+                            </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="testimonial-card p-5 mx-auto rounded shadow-sm">
-                             <img src="./assets/img/user3.jpg" class="rounded-circle mb-3 border border-primary border-3" alt="Foto da Cliente Bia Mendes" width="90" height="90">
-                            <p class="lead">"Recebo elogios o tempo todo! Meu cabelo fica com um aroma delicioso e super sedoso. Virei cliente fiel!"</p>
-                            <p class="fw-bold mt-3">- Bia Mendes, ⭐️⭐️⭐️⭐️⭐️</p>
+                        <div class="testimonial-card p-5 mx-auto rounded shadow-lg border-top border-5 border-pink-dark"
+                            style="max-width: 700px">
+                            <img src="./assets/img/user3.jpg"
+                                class="rounded-circle mb-3 border border-pink-dark border-3"
+                                alt="Foto da Cliente Bia Mendes" width="85" height="90" />
+                            <p class="lead font-playfair fst-italic">
+                                "É o meu segredo para me sentir sempre elegante. Recebo
+                                elogios sobre o cheiro o tempo todo. Perfeito!"
+                            </p>
+                            <p class="fw-bold mt-3 font-poppins">
+                                - Bia Mendes, ⭐️⭐️⭐️⭐️⭐️
+                            </p>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon custom-carousel-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon custom-carousel-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Próximo</span>
                 </button>
             </div>
         </div>
     </section>
 
-    <section id="cta-final" class="text-center py-5">
+    <hr class="custom-hr" />
+
+    <section id="cta-final" class="text-center py-3 bg-pink-dark text-white">
         <div class="container" data-aos="zoom-in">
-            <h2 class="display-4 fw-bold mb-4">Não Deixe Escapar Essa Oportunidade!</h2>
-            <p class="lead mb-4">Garanta já seu perfume capilar e sinta a diferença que a Essência Capilar faz.</p>
-            <a href="#comprar-agora-section" class="btn btn-light btn-lg custom-btn-pulse" data-aos="zoom-in" data-aos-delay="300">Quero Meu Perfume Capilar Agora!</a>
+            <h2 class="display-4 fw-bold mb-4 font-playfair">
+                Não Espere Mais para Ter a Sua!
+            </h2>
+            <p class="lead mb-4 fw-light">
+                Aproveite a oferta de lançamento e transforme seu cabelo com Flor D'Ar
+                antes que o estoque acabe.
+            </p>
         </div>
     </section>
 
-    <section id="faq" class="py-5">
+    <section id="faq" class="bg-white">
         <div class="container">
-            <h2 class="text-center display-4 fw-bold mb-5" data-aos="fade-up">Dúvidas Frequentes</h2>
-            <div class="accordion accordion-flush" id="faqAccordion">
-                <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="text-center display-4 fw-bold mb-5 font-playfair text-dark-gold" data-aos="fade-up">
+                Perguntas Frequentes (FAQ)
+            </h2>
+            <div class="accordion accordion-flush custom-accordion-style" id="faqAccordion"
+                style="max-width: 900px; margin: auto">
+                <div class="accordion-item shadow-sm mb-3 rounded" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            O perfume capilar danifica o cabelo?
+                        <button class="accordion-button collapsed fw-bold font-poppins text-pink-dark" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                            aria-controls="collapseOne">
+                            <i class="bi bi-question-circle-fill me-2 text-gold"></i> O Flor
+                            D'Ar pode danificar ou ressecar meu cabelo?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Não! Nossa fórmula é desenvolvida para ser leve e não contém álcool, sulfatos ou parabenos que possam ressecar ou agredir os fios. É seguro para uso diário.
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body fw-light">
+                            Absolutamente não! Nossa fórmula é desenvolvida para ser **suave
+                            e leve**. Não contém álcool, sulfatos ou parabenos que são
+                            comumente encontrados em perfumes corporais e que podem ressecar
+                            ou agredir os fios. É seguro para uso diário em todos os tipos
+                            de cabelo.
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="accordion-item shadow-sm mb-3 rounded" data-aos="fade-up" data-aos-delay="200">
                     <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Quanto tempo dura a fragrância?
+                        <button class="accordion-button collapsed fw-bold font-poppins text-pink-dark" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            <i class="bi bi-question-circle-fill me-2 text-gold"></i> Quanto
+                            tempo dura a fragrância?
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            A fragrância da Essência Capilar é projetada para durar por horas, geralmente até 8 horas, dependendo do tipo de cabelo e das condições ambientais.
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body fw-light">
+                            Graças à nossa concentração premium de essências, a fragrância
+                            de Flor D'Ar é projetada para durar um longo período, mantendo a
+                            intensidade por **4 a 8 horas**, dependendo da aplicação e das
+                            condições ambientais.
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="accordion-item shadow-sm mb-3 rounded" data-aos="fade-up" data-aos-delay="300">
                     <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Posso usar em cabelos coloridos ou com química?
+                        <button class="accordion-button collapsed fw-bold font-poppins text-pink-dark" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            <i class="bi bi-question-circle-fill me-2 text-gold"></i> Posso
+                            usar em cabelos coloridos ou com química?
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Sim! Nosso perfume capilar é seguro para cabelos coloridos, com mechas, alisados ou com qualquer outro tipo de tratamento químico, pois sua fórmula é suave e livre de agentes agressivos.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Qual a forma de aplicação?
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Basta borrifar uma pequena quantidade sobre os cabelos secos ou úmidos, a uma distância de 15-20 cm, concentrando nas pontas e no comprimento. Evite a raiz para não sobrecarregar.
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body fw-light">
+                            Sim! Flor D'Ar é totalmente seguro para cabelos coloridos, com
+                            mechas, alisados, ou com qualquer outro tratamento químico. Sua
+                            fórmula suave e livre de agentes agressivos não interfere na cor
+                            nem na integridade dos fios.
                         </div>
                     </div>
                 </div>
@@ -262,33 +527,63 @@
         </div>
     </section>
 
-    <footer class="py-4" data-aos="fade-up">
+    <footer class="py-5 custom-footer-bg text-white" data-aos="fade-up">
         <div class="container text-center text-md-start">
             <div class="row">
-                <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="100">
-                    <h5 class="fw-bold">Essência Capilar</h5>
-                    <p>A fragrância que complementa sua beleza e personalidade.</p>
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                    <h5 class="fw-bold font-playfair text-gold">Flor D'Ar</h5>
+                    <p class="fw-light">
+                        A essência que transforma seu cabelo em um jardim de elegância e
+                        frescor duradouro.
+                    </p>
+                    <div class="mt-3">
+                        <p class="small fw-bold text-gold-faint mb-1">
+                            Formas de Pagamento:
+                        </p>
+                        <i class="bi bi-currency-dollar fs-4 me-2 text-white"
+                            aria-label="Aceitamos Pagamentos em Pix"></i>
+                        <i class="bi bi-credit-card-fill fs-4 me-2 text-white"
+                            aria-label="Aceitamos Cartão de Crédito"></i>
+                        <i class="bi bi-safe-fill fs-4 text-white" aria-label="Pagamento Seguro"></i>
+                    </div>
                 </div>
-                <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="200">
-                    <h5 class="fw-bold">Links Rápidos</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#beneficios" class="text-white text-decoration-none">Benefícios</a></li>
-                        <li><a href="#produto" class="text-white text-decoration-none">O Produto</a></li>
-                        <li><a href="#depoimentos" class="text-white text-decoration-none">Depoimentos</a></li>
-                        <li><a href="#faq" class="text-white text-decoration-none">FAQ</a></li>
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+                    <h5 class="fw-bold font-playfair text-gold">Navegação</h5>
+                    <ul class="list-unstyled fw-light">
+                        <li>
+                            <a href="#beneficios" class="text-white text-decoration-none hover-gold">Benefícios</a>
+                        </li>
+                        <li>
+                            <a href="#produto" class="text-white text-decoration-none hover-gold">O Produto</a>
+                        </li>
+                        <li>
+                            <a href="#galeria" class="text-white text-decoration-none hover-gold">Galeria de Estilo</a>
+                        </li>
+                        <li>
+                            <a href="#comprar-agora-section" class="text-white text-decoration-none hover-gold">Comprar
+                                Agora</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <h5 class="fw-bold">Siga-nos</h5>
-                    <a href="#" class="me-3"><i class="bi bi-instagram fs-4"></i></a>
-                    <a href="#" class="me-3"><i class="bi bi-facebook fs-4"></i></a>
-                    <a href="#" class="me-3"><i class="bi bi-tiktok fs-4"></i></a>
+                    <h5 class="fw-bold font-playfair text-gold">Siga-nos</h5>
+                    <a href="#" class="me-3 text-white hover-gold" aria-label="Instagram Flor D'Ar"><i
+                            class="bi bi-instagram fs-4"></i></a>
+                    <a href="#" class="me-3 text-white hover-gold" aria-label="Facebook Flor D'Ar"><i
+                            class="bi bi-facebook fs-4"></i></a>
+                    <a href="#" class="me-3 text-white hover-gold" aria-label="TikTok Flor D'Ar"><i
+                            class="bi bi-tiktok fs-4"></i></a>
                 </div>
             </div>
-            <hr class="my-3">
+            <hr class="my-4 border-gold-faint" />
             <div class="text-center" data-aos="fade-up" data-aos-delay="400">
-                <p class="mb-0">&copy; 2025 Essência Capilar. Todos os direitos reservados.</p>
-                <small><a href="#" class="text-decoration-none">Política de Privacidade</a> | <a href="#" class="text-decoration-none">Termos de Uso</a></small>
+                <p class="mb-0 fw-light">
+                    &copy; 2025 Flor D'Ar Hair Perfume. Todos os direitos reservados.
+                </p>
+                <small class="fw-light"><a href="#" class="text-decoration-none text-gold-faint hover-gold">Política de
+                        Privacidade</a>
+                    |
+                    <a href="#" class="text-decoration-none text-gold-faint hover-gold">Termos de Uso</a></small>
             </div>
         </div>
     </footer>
@@ -297,47 +592,57 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 1200, 
-            once: true, 
-            easing: 'ease-in-out',
+            duration: 1000,
+            once: true,
+            easing: "ease-in-out",
         });
+        const floatingCta = document.querySelector(".floating-cta");
+        const heroSection = document.querySelector(".hero-section");
+        const heroHeight = heroSection ? heroSection.offsetHeight : 500; 
 
-        const floatingCta = document.querySelector('.floating-cta');
-        const heroSection = document.querySelector('.hero-section');
-        const comprarSection = document.getElementById('comprar-agora-section');
-
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > heroSection.offsetHeight && window.scrollY < comprarSection.offsetTop - (window.innerHeight / 2)) {
-                floatingCta.classList.add('show');
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > heroHeight / 2) {
+                floatingCta.classList.add("show");
             } else {
-                floatingCta.classList.remove('show');
+                floatingCta.classList.remove("show");
             }
         });
-
         function startCountdown() {
-            const countdownDate = new Date().getTime() + (2 * 24 * 60 * 60 * 1000) + (1 * 60 * 60 * 1000); 
-            const x = setInterval(function() {
+            const countdownDate = new Date().getTime() + 24 * 60 * 60 * 1000;
+            const x = setInterval(function () {
                 const now = new Date().getTime();
                 const distance = countdownDate - now;
+                const countdownContainer = document.getElementById("countdown");
 
                 if (distance < 0) {
                     clearInterval(x);
-                    document.getElementById("countdown").innerHTML = "OFERTA EXPIRADA!";
+                    if (countdownContainer) {
+                        countdownContainer.innerHTML = "OFERTA EXPIRADA! 😭";
+                        countdownContainer.style.color = "#ffcc00";
+                    }
                     return;
                 }
-
-                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const hours = Math.floor(
+                    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+                );
+                const minutes = Math.floor(
+                    (distance % (1000 * 60 * 60)) / (1000 * 60)
+                );
                 const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                const hoursElement = document.getElementById("hours");
+                const minutesElement = document.getElementById("minutes");
+                const secondsElement = document.getElementById("seconds");
 
-                document.getElementById("days").innerHTML = String(days).padStart(2, '0');
-                document.getElementById("hours").innerHTML = String(hours).padStart(2, '0');
-                document.getElementById("minutes").innerHTML = String(minutes).padStart(2, '0');
-                document.getElementById("seconds").innerHTML = String(seconds).padStart(2, '0');
+                if (hoursElement)
+                    hoursElement.innerHTML = String(hours).padStart(2, "0");
+                if (minutesElement)
+                    minutesElement.innerHTML = String(minutes).padStart(2, "0");
+                if (secondsElement)
+                    secondsElement.innerHTML = String(seconds).padStart(2, "0");
             }, 1000);
         }
-        startCountdown();
+        document.addEventListener("DOMContentLoaded", startCountdown);
     </script>
 </body>
+
 </html>
